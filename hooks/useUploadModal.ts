@@ -1,15 +1,16 @@
+import { deflate } from "zlib";
 import { create } from "zustand";
 
-interface AuthModalStore {
+interface UploadModalStore {
   isOpen: boolean;
   onOpen: () => void;
   onClose: () => void;
 }
 
-const useAuthModal = create<AuthModalStore>((set) => ({
+const useUploadModal = create<UploadModalStore>((set) => ({
   isOpen: false,
   onOpen: () => set({ isOpen: true }),
   onClose: () => set({ isOpen: false }),
 }));
 
-export default useAuthModal;
+export default useUploadModal;
