@@ -6,7 +6,7 @@ import useAuthModal from "@/hooks/useAuthModal";
 import { useUser } from "@/hooks/useUser";
 import useUploadModal from "@/hooks/useUploadModal";
 import { Song } from "@/types";
-import MediaItem from "@/app/(site)/components/MediaItem";
+import MediaItem from "@/components/MediaItem";
 
 interface LibraryProps {
   songs: Song[];

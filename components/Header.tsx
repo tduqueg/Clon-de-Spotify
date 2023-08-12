@@ -118,8 +118,8 @@ const Header: React.FC<HeaderProps> = ({ children, className }) => {
         <div className="flex justify-between items-center gap-x-4">
           {user ? (
             <div className="flex gap-x-4 items-center">
-              <Button onClick={handleLogout} className="bg-white px-6 py-2">
-                Cerrar Sesión
+              <Button onClick={handleLogout} className="bg-white px-7 py-2">
+                Salir
               </Button>
               <Button
                 onClick={() => router.push("/account")}
@@ -139,7 +139,7 @@ const Header: React.FC<HeaderProps> = ({ children, className }) => {
                     font-medium
                   "
                 >
-                  Crea tu cuenta
+                  Çrear cuenta
                 </Button>
               </div>
               <div>
@@ -147,7 +147,7 @@ const Header: React.FC<HeaderProps> = ({ children, className }) => {
                   onClick={authModal.onOpen}
                   className="bg-white px-6 py-2"
                 >
-                  Inicia Sesión
+                  Iniciar Sesión
                 </Button>
               </div>
             </>
