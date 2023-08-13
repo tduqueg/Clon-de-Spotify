@@ -17,7 +17,7 @@ const SidebarItem: React.FC<SidebarItemProps> = ({
 }) => {
   return (
     <Link
-      href={href || "#"}
+      href={href}
       className={twMerge(
         `
         flex 
