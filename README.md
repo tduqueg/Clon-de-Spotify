@@ -1,5 +1,7 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+Es un proyecto personal donde realicé un reproductor de música con una interfaz muy similar a la interfaz de Spotify, con inicio de sesión y autentificación, base de datos, posibilidad de subir canciones,dar me gusta, búsqueda avanzada y Playlist de me gusta fue realizada en Nextjs, React con Supabase como base de datos y Tailwind para los estilos.
 
+El Link para probar el reproductor es el siguiente: 
+https://clon-de-spotify-final.vercel.app/
 ## Getting Started
 
 First, run the development server:
